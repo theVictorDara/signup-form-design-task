@@ -11,7 +11,7 @@ body {
     min-height: 100vh;
     min-width: 100vw;
     background-color: hsl(0, 100%, 74%);
-    background-image: url(images/bg-intro-desktop.png);
+    background-image: url(/bg-intro-desktop.png);
     margin: 0 auto;
 }
 .paragraph {
@@ -101,7 +101,7 @@ button a {
 
 @media (max-width: 375px) {
     body {
-        background-image: url(images/bg-intro-mobile.png);
+        background-image: url(/bg-intro-mobile.png);
         flex-direction: column;
     }
     .paragraph {
